@@ -1,0 +1,37 @@
+body {
+    background:url(Redsea.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-container {
+    background: #e9020276;
+    border: 4px solid #a61e1e;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 1px;
+    background: #6e2f2f;
+}
+.cell {
+    width: 20px;
+    height: 20px;
+    background: #052932;
+}
+.snake {
+    background: rgba(188, 234, 40, 0.941);
+}
+.food {
+    background: #edf1f3;
+}
+.score {
+    color: rgb(144, 172, 207);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
